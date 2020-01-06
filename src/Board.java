@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+//The board class paints objects as well as create a space for all are objects to interact with each other
 public class Board extends JPanel implements ActionListener {
     final int WIDTH=800;
     final int HEIGHT=600;
